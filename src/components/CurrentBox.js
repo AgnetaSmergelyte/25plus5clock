@@ -24,8 +24,10 @@ const CurrentBox = () => {
                     alarm.play();
                     if (currentActivity === "Session") {
                         dispatch(changeCurrentActivity('Break'));
+                        setTimeLeft({minutes: time, seconds: 0});
                     } else {
                         dispatch(changeCurrentActivity('Session'));
+                        setTimeLeft({minutes: time, seconds: 0});
                     }
                 } else if (timeLeft.seconds === 0) {
                     setTimeLeft({minutes: timeLeft.minutes - 1, seconds: 59});

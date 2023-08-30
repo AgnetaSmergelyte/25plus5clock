@@ -12,7 +12,7 @@ const LengthBox = ({activity}) => {
 
     function changeTime(dif) {
         if (play) return;
-        if (time + dif <= 60 && time + dif > 0) {
+        if (time + dif <= 60 && time + dif >= 1) {
             if (activity === 'Break') {
                 dispatch(changeBreakTime(dif))
             } else {
