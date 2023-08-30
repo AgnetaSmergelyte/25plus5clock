@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import LengthBox from "./components/LengthBox";
+import CurrentBox from "./components/CurrentBox";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="container">
+            <h1>25 + 5 Clock</h1>
+            <div className="d-flex">
+                <LengthBox activity="Break" />
+                <LengthBox activity="Session" />
+            </div>
+            <CurrentBox />
+        </div>
+    );
 }
 
 export default App;

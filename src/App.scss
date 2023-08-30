@@ -1,3 +1,6 @@
+$color-main: #35155D;
+$color-secondary: #A2678A;
+
 * {
   color: white;
   margin: 0;
@@ -20,7 +23,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #35155D;
+  background-color: $color-main;
   gap: 20px;
 }
 
@@ -36,9 +39,10 @@ h1 {
 .click-me {
   cursor: pointer;
   transition: all 0.3s ease;
-}
-.click-me:hover {
-  opacity: 0.6;
+
+  &:hover {
+    opacity: 0.6;
+  }
 }
 
 .activity-box {
@@ -50,7 +54,7 @@ h1 {
 }
 
 .current-box {
-  border: 7px solid #A2678A;
+  border: 7px solid $color-secondary;
   border-radius: 50px;
   padding: 20px 40px;
   margin: 20px;
@@ -68,5 +72,3 @@ h1 {
   gap: 10px;
   font-size: 2rem;
 }
-
-/*# sourceMappingURL=App.css.map */
