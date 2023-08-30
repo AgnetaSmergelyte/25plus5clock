@@ -6,6 +6,7 @@ $color-secondary: #A2678A;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: $color-main;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h1 {
   justify-content: center;
   background-color: $color-main;
   gap: 20px;
+  overflow: auto;
 }
 
 .time-controls {
@@ -50,7 +52,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .current-box {
