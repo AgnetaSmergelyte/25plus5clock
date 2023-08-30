@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/25plus5clock/static/css/main.84398151.css",
+    "main.js": "/25plus5clock/static/js/main.95197d64.js",
+    "static/media/Clock-gong-sound.mp3": "/25plus5clock/static/media/Clock-gong-sound.eab4916e68c2e5726f36.mp3",
+    "index.html": "/25plus5clock/index.html",
+    "main.84398151.css.map": "/25plus5clock/static/css/main.84398151.css.map",
+    "main.95197d64.js.map": "/25plus5clock/static/js/main.95197d64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84398151.css",
+    "static/js/main.95197d64.js"
+  ]
+}
